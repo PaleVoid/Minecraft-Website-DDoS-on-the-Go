@@ -1,0 +1,45 @@
+nav ul   /* Remove bullet point for all navigator element */
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+hr
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+}
+
+.portal
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.background_1
+{
+    background-image: url("img/background_index.gif");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo
+{
+    border-radius: 20%;
+    background: black;
+    padding: 10px;
+}
+
