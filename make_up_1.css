@@ -5,10 +5,23 @@ nav ul   /* Remove bullet point for all navigator element */
     padding: 0;
 }
 
-hr
+body
 {
     margin: 0;
     padding: 0;
+    border: 0;
+
+    background-image: url("img/index_footer.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+hr
+{
+    margin: 0;
+    border: 10px solid #ACD1AF;
 }
 
 header
@@ -20,20 +33,22 @@ header
 
 .portal
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    text-align: center;
 }
 
 .background_1
 {
     background-image: url("img/background_index.gif");
-    background-repeat: no-repeat;
     height: 100%;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+}
+
+.background_1:hover
+{
+    background-position: top;
+    transition: background-position 1000ms;
 }
 
 .logo
@@ -42,4 +57,20 @@ header
     background: black;
     padding: 10px;
 }
+
+.logo_bg
+{
+    background-image: url("img/logo_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.layout_reset
+{
+    padding: 0;
+    margin: 0;
+}
+
+
 
